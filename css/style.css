@@ -5,8 +5,8 @@
 }
 
 body {
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 56%, rgba(74,68,64,1) 100%);
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400%, 400%;
     color: black;
     display: flex;
     align-items: center;
@@ -17,7 +17,7 @@ body {
 }
 
 .pw-container {
-    background-image: linear-gradient(to right, #000000, #38171c, #6b2525, #9c3a22);
+    border: 3px solid white;
     color: white;
     min-width: 400px;
     border-radius: 25px;
@@ -35,7 +35,7 @@ body {
 }
 
 .pw {
-    background: linear-gradient(0deg, rgba(0,0,0,1) 56%, rgba(74,68,64,1) 100%);
+    border: 3px solid white;
     display: flex;
     align-items: center;
     font-size: 1.5rem;
@@ -43,7 +43,7 @@ body {
     width: 100%;
     position: relative;
     padding: 1rem;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .pw button {
@@ -79,7 +79,7 @@ body {
 }
 
 .generate {
-    background-color: #ff7b00;
+    background-color: #11ffee00;
     border: none;
     border-radius: 25px;
     color: white;
@@ -90,4 +90,5 @@ body {
     margin-top: 1rem;
     width: 100%;
     cursor: pointer;
+    border: 3px solid white;
 }
