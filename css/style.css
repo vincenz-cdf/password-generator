@@ -23,6 +23,13 @@ body {
     border-radius: 25px;
 }
 
+.noname {
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    color: white;
+}
+
 .pw-header {
     padding: 1rem;
 }
