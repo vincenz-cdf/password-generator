@@ -93,6 +93,4 @@ copyEl.addEventListener('click', () => {
     textarea.select();
     document.execCommand('copy');
     textarea.remove();
-    alert('Copié!')
-
 })

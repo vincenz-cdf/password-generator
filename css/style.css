@@ -60,10 +60,13 @@ body {
   transition: opacity 0.2s ease, transform 0.2s ease;
   opacity: 0;
 }
-
-.pw:hover button {
+.pw button:hover {
   opacity: 1;
   transform: translate(0, 0);
+}
+.pw button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .pw-body {
