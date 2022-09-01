@@ -99,5 +99,9 @@ body {
 .generate:hover {
   transform: scale(1.05);
 }
+.generate:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
 
 /*# sourceMappingURL=style.css.map */
